@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;    box-sizing: border-box;
-    color: #ffb429;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.662);
+    color: #E9C344;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.300);
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
 }
 
 html{
@@ -33,15 +37,15 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #1570bf59;
-    border: 2px solid #D99923;
-    width: 400px;
-    height: 500px;
+    border: 5px solid #E9C344;
+    width: 350px;
+    height: 480px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.492);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.353);
 }
 
 .cells {
@@ -58,13 +62,13 @@ body{
     height: 100px;
     border-radius: 10px;
     margin: 2px;
-    background-color: #68c5ff80;
+    background-color: #68c5ff83;
     cursor: pointer;
     box-shadow: 0px 0px 0px white;
-    border: 2px solid #025f8da0;
+    border: 5px solid #0075affe;
 }
 .cell:hover{
-    background-color: #5eb9f2bc;
+    background-color: #5eb9f25d;
 }
 .score {
     display: flex;
@@ -74,34 +78,35 @@ body{
     font-size: 20px;
     background-color: #61c3ff80;
     border-radius: 10px;
-    box-shadow: 0px 0px 0px white;
-    
+    box-shadow: 0px 0px 0px white;  
 }
 
 .score > span{
-    border: 2px solid #025f8da0;
     width: 100%;
     padding: 10px;
 }
 
 .player1Score{
     border-radius: 10px 0px 0px 10px;
+    border: 5px solid #025f8da0;
+    border-right: 0px;
 }
 
 .player2Score{
     border-radius: 0px 10px 10px 0px;
+    border: 5px solid #025f8da0;
 }
 
 .restart {
     margin-top: 2px;
     background-color: #5eb9f280;
-    border: 2px solid #025f8da0;
+    border: 5px solid #025f8da0;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
     display: block;
     margin: 2px auto;
     width: 309px;
-    font-size: 1.1em;
+    font-size: 1.5em;
     cursor: pointer;
     transition: all ease .2s;
     box-shadow: 0px 0px 0px white;

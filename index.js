@@ -40,11 +40,13 @@ function addCellsPlayer1(i) {
     cell[i].innerHTML = "X";
     player1.push(i);
     flag = false;
+    cell[i].style.color = '#1263BE'
 }
 function addCellsPlayer2(i) {
     cell[i].innerHTML = "O";
     player2.push(i);
     flag = true;
+    cell[i].style.color = '#D99923'
 }
 
 function checkWinner() {
