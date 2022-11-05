@@ -46,7 +46,7 @@ function addCellsPlayer2(i) {
     cell[i].innerHTML = "O";
     player2.push(i);
     flag = true;
-    cell[i].style.color = '#D99923'
+    cell[i].style.color = '#E9C344'
 }
 
 function checkWinner() {
